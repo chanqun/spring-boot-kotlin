@@ -13,9 +13,9 @@ class BlogConfiguration {
 
         val smaldini = userRepository.save(User("smaldini", "Stéphane", "Maldini"))
         articleRepository.save(Article(
-            title = "Reactor Bismuth is out",
-            headLine = "Lorem ipsum",
-            content = "dolor sit amet",
+            title = "spring-boot-kotlin 실습",
+            headLine = "실습해보다: ",
+            content = "실습하는데 어렵네요",
             author = smaldini
         ))
 
